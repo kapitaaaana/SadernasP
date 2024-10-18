@@ -7,15 +7,15 @@
 body {
   font-family: "Arial", sans-serif;
   line-height: 1.6;
-  background-color: #f4f4f4; /* Slightly lighter background */
+  background-color: #f4f4f4; 
   color: #333;
 }
 
 header {
-  display: flex; /* Use flexbox for layout */
-  align-items: center; /* Center items vertically */
-  justify-content: space-between; /* Space between logo/title and nav */
-  background: black; /* Background color */
+  display: flex; 
+  align-items: center; 
+  justify-content: space-between; 
+  background: black;
   color: white;
   padding: 10px;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
@@ -23,38 +23,38 @@ header {
 
 .logo-container {
   display: flex;
-  align-items: center; /* Center the logo and title vertically */
+  align-items: center; 
 }
 
 .logo {
-  width: 120px; /* Logo size */
+  width: 120px;
   height: auto;
-  margin-right: 10px; /* Space between logo and title */
+  margin-right: 10px; 
 }
 
 .logo-title {
-  display: flex; /* Use flex to align items */
-  align-items: center; /* Center items vertically */
+  display: flex; 
+  align-items: center; 
 }
 
 h1 {
-  font-size: 1.5em; /* Larger font size for the main title */
-  margin-bottom: 0; /* Remove bottom margin */
+  font-size: 1.5em; 
+  margin-bottom: 0;
 }
 
 nav {
-  margin-left: auto; /* Push the nav to the right */
+  margin-left: auto; 
 }
 
 nav ul {
   list-style: none;
   padding: 0;
-  margin: 0; /* Remove margin from the ul */
+  margin: 0;
 }
 
 nav ul li {
   display: inline;
-  margin: 0 20px; /* Increased space between links */
+  margin: 0 20px;
 }
 
 nav ul li a {
@@ -64,20 +64,20 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-  color: red; /* Lighter color on hover */
+  color: red; 
 }
 
 h2 {
-  color: black; /* Match the header color */
+  color: black; 
 }
 
 section {
   padding: 20px;
-  margin: 20px auto; /* Centered with auto margins */
+  margin: 20px auto; 
   background: #488df4;
   border-radius: 8px;
   box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
-  max-width: 800px; /* Limit section width for better readability */
+  max-width: 800px;
 }
 
 footer {
@@ -93,14 +93,14 @@ footer {
 }
 
 .footer-content {
-  display: flex; /* Use flexbox for layout */
-  align-items: center; /* Center items vertically */
-  justify-content: center; /* Center the content horizontally */
-  padding: 15px; /* Add padding for spacing */
+  display: flex; 
+  align-items: center; 
+  justify-content: center; 
+  padding: 15px; 
 }
 
 .footer-logo {
-  width: 80px; /* Set the width of the footer logo */
-  height: auto; /* Maintain aspect ratio */
-  margin-right: 5px; /* Space between logo and text */
+  width: 80px;
+  height: auto;
+  margin-right: 5px; 
 }
